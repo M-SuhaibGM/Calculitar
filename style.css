@@ -1,12 +1,12 @@
 .center {
 
-    width: 31vw;
-    height: 90vh;
-    background-color: rgb(34, 30, 30);
+    width: 30vw;
+    height: 80vh;
     border-radius: 10px;
     margin-top: 15px;
     position: relative;
     padding: 10px;
+    background-color: black;
 
 }
 
@@ -24,28 +24,36 @@
 }
 
 .screen {
-    width: 27vw;
+    width: 28vw;
     height: 80px;
     position: relative;
     top: 5px;
     margin-left: 15px;
     font-size: 60px;
     color: white;
+    background-color: white;
+    z-index: 3;
     text-align: right;
-    padding: 10px;
     border: none;
     margin-bottom: 80px;
     background: transparent;
     overflow: hidden;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0px  3px;
+    
 
 }
 
 .buttoncontaner {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
-
+    padding: 10px;
+    
 }
 
 .button {
